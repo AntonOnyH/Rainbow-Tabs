@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		773FB19F2119B8AA0094BAE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773FB19E2119B8AA0094BAE3 /* AppDelegate.swift */; };
-		773FB1A12119B8AA0094BAE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773FB1A02119B8AA0094BAE3 /* ViewController.swift */; };
+		773FB1A12119B8AA0094BAE3 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773FB1A02119B8AA0094BAE3 /* RedViewController.swift */; };
 		773FB1A42119B8AA0094BAE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773FB1A22119B8AA0094BAE3 /* Main.storyboard */; };
 		773FB1A62119B8AC0094BAE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773FB1A52119B8AC0094BAE3 /* Assets.xcassets */; };
 		773FB1A92119B8AC0094BAE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773FB1A72119B8AC0094BAE3 /* LaunchScreen.storyboard */; };
+		773FB1B1211B7E300094BAE3 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773FB1B0211B7E300094BAE3 /* OrangeViewController.swift */; };
+		773FB1B3211B7E5A0094BAE3 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773FB1B2211B7E5A0094BAE3 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		773FB19B2119B8AA0094BAE3 /* Rainbow-Tabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainbow-Tabs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		773FB19E2119B8AA0094BAE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		773FB1A02119B8AA0094BAE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		773FB1A02119B8AA0094BAE3 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		773FB1A32119B8AA0094BAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		773FB1A52119B8AC0094BAE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		773FB1A82119B8AC0094BAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		773FB1AA2119B8AC0094BAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773FB1B0211B7E300094BAE3 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		773FB1B2211B7E5A0094BAE3 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				773FB19E2119B8AA0094BAE3 /* AppDelegate.swift */,
-				773FB1A02119B8AA0094BAE3 /* ViewController.swift */,
+				773FB1A02119B8AA0094BAE3 /* RedViewController.swift */,
+				773FB1B0211B7E300094BAE3 /* OrangeViewController.swift */,
+				773FB1B2211B7E5A0094BAE3 /* YellowViewController.swift */,
 				773FB1A22119B8AA0094BAE3 /* Main.storyboard */,
 				773FB1A52119B8AC0094BAE3 /* Assets.xcassets */,
 				773FB1A72119B8AC0094BAE3 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				773FB1A12119B8AA0094BAE3 /* ViewController.swift in Sources */,
+				773FB1B3211B7E5A0094BAE3 /* YellowViewController.swift in Sources */,
+				773FB1A12119B8AA0094BAE3 /* RedViewController.swift in Sources */,
 				773FB19F2119B8AA0094BAE3 /* AppDelegate.swift in Sources */,
+				773FB1B1211B7E300094BAE3 /* OrangeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
