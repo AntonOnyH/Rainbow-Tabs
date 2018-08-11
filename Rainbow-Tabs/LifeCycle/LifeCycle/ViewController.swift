@@ -14,10 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("ViewController - view did load")
     }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("ViewController - view will appear")
     }
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         print("ViewController - view did appear")
